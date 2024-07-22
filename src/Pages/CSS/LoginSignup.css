@@ -1,0 +1,120 @@
+.signinsignup {
+  width: 100%;
+  height: 80vh;
+  background: #fce3fe;
+  padding-top: 100px;
+}
+
+.signinsignup-container {
+  width: 580px;
+  height: 400px;
+
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+.signinsignup-container h1 {
+  margin: 20px 0px;
+}
+
+.signinsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+
+.signinsignup-fields input {
+  height: 22px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  font-size: 18px;
+}
+
+.signinsignup-container button {
+  width: 580px;
+  height: 52px;
+  color: white;
+  background: rgb(238, 84, 110);
+  margin-top: 20px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signinsignup-signin {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.signinsignup-signin span {
+  color: #ff4141;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signinsignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+  .signinsignup {
+    padding-top: 50px;
+  }
+  .signinsignup-container {
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .signinsignup-container h1 {
+    margin: 10px 0px;
+  }
+  .signinsignup-fields {
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .signinsignup-fields input {
+    height: 65px;
+    width: 93%;
+  }
+  .signinsignup-container button {
+    width: 100%;
+  }
+  .signinsignup-signin {
+    font-size: 16px;
+  }
+  .signinsignup-agree {
+    font-size: 14px;
+    gap: 10px;
+  }
+}
+
+@media (max-width) {
+  .signinsignup-container {
+    padding: 20px 30px;
+  }
+  .signinsignup-container h1 {
+    font-size: 24px;
+  }
+  .signinsignup-fields {
+    margin-top: 20px;
+  }
+  .signinsignup-fields input {
+    height: 50px;
+  }
+  .signinsignup-container button {
+    height: 50px;
+    font-size: 16px;
+  }
+}
